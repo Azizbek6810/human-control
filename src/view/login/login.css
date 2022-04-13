@@ -1,0 +1,56 @@
+.login-background {
+    background-image: url("../../../public/img/20470987.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+.login-card {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.registerClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.btnReg {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.formRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgotPassword {
+    text-decoration: none !important;
+    text-align: center;
+    margin: 10px auto;
+    color: #5b5b5b;
+}
